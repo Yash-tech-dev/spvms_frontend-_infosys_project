@@ -307,7 +307,7 @@ const handleStatusUpdate = async (prId, newStatus) => {
                     <tr style={{ background: '#2c3e50', color: 'white' }}>
                         <th>PR ID</th>
                         <th>Description</th>
-                        <th>Items & Unit Prices (From pritem table)</th>
+                        <th>Items & Unit Prices</th>
                         <th>Estimated Total Cost</th>
                         <th>Status</th>
                         <th>Actions</th>
