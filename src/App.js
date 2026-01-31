@@ -17,6 +17,7 @@ import Vendors from "./component/Vendors";
 import AddVendor from "./component/AddVendor";
 import VendorDashboard from "./component/VendorDashboard";
 import CreatePurchaseRequest from "./component/PurchaseRequest";
+import ProcurementDashboard from "./component/ProcurementDashboard";
 import LandingPage from "./component/landing.jsx";
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
         <Route path="/vendor-dashboard" element={<VendorDashboard/>}/>
         <Route path="/create-pr" element={<CreatePurchaseRequest/>}/>
         <Route path="/landing-page" element={<LandingPage />} />
+        <Route path="/procurement-dashboard" element={<ProcurementDashboard />} />
       
       </Routes>
     </Router>
